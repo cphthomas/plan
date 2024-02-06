@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDU</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+
+</head>
+
+
+<body>
+    <div class="container py-5">
+        <!-- For demo purpose -->
+        <div class="row text-center text-white mb-5">
+            <div class="col-lg-8 mx-auto">
+                <h1 class="display-4">SDU</h1>
+                <p class="lead mb-0">Du kan hente kursusindholdet til din egen kalender,<br> ved at importere
+                    nedenstående ics-fil</p>
+                <br>
+                <button id="downloadICS"><span class=" text-gray font-weight-light">Hent til
+                        kalender</span></button>
+                <!-- <p class="lead">Læs nærmere i lærebogen
+                    <a href="https://s.tepedu.com" class="text-white">
+                        <u>her</u>
+                    </a>
+                </p> -->
+            </div>
+        </div><!-- End -->
+
+
+        <div class="row">
+            <div class="col-lg-7 mx-auto">
+
+                <!-- Timeline -->
+                <ul class="timeline">
+                    <li class="timeline-item bg-white ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0">1.</h2>
+                        <span class="small text-gray">
+                            <i class="fa-regular fa-clock mr-1"></i>
+                            21 Marts, 2024
+                        </span>
+                        <p class="text-small mt-2 font-weight-light">
+                            Indsamle spørgeskema data ved hjælp af Google Analyse og bearbejde disse data ved hjælp af
+                            f.eks. Excel pivot-tabeller.</p>
+                        <hr>
+                        <div class="event" data-start="20240101T090000" data-end="20240101T090000" data-summary="Uge 1">
+                            <p class="description text-small mt-2 font-weight-light">SDU Materiale til 1. møde<br>
+                                <a href="https://s.tepedu.com">Event 1 Link</a><br>
+                                <a href="https://s.tepedu.dk">More Info</a>
+                            </p>
+                        </div>
+                        <hr>
+                        <p class="text-small mt-2 font-weight-light">
+                            Du kan se kapitlet omkring Google Analyse <a
+                                href="https://s.tepedu.com/kapitel/30"><u>her</u></a>
+
+                        </p>
+
+
+                        <hr>
+                        <div style="padding:56.25% 0 0 0;position:relative;">
+                            <iframe src="https://player.vimeo.com/video/902910310" allowfullscreen frameborder="0"
+                                style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                            </iframe>
+                        </div>
+
+                    </li>
+                    <li class="timeline-item bg-white ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0">Chi i anden analyse</h2>
+
+                        <p class="text-small mt-2 font-weight-light">
+                            Dette er tekst udenfor kalender event, Identificere relationer med Chi-i-anden analyse,
+                            f.eks. mellem hvad man stemmer og hvilken mobiltelefon man har.
+
+                        </p>
+                        <hr>
+                        <div class="event text-small mt-2 font-weight-light" data-start="20240102T090000"
+                            data-end="20240102T090000" data-summary="Uge 2">
+                            <p class="description">
+                                SDU Dette er tekst i kalender event Indsamle spørgeskema data ved hjælp af Google
+                                Analyse og
+                                bearbejde disse data ved hjælp af f.eks. Excel pivot-tabeller. <br>
+                                Materialer til 2. møde<br>
+                                <a href="https://google.com">Google Link</a><br>
+                                <a href="https://google.com">Google Link også</a>.
+                            </p>
+                        </div>
+                        <hr>
+
+                        <div style="text-align: center;">
+                            <a href="https://s.tepedu.com" target="_blank">
+                                <img src="/chi.png" alt="Description of the image" class="img-fluid"
+                                    style="display: block; margin: auto;" width="50%">
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item bg-white ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0">Regressionsanalyse</h2>
+
+                        <p class="text-small mt-2 font-weight-light">
+                            Forudsige salg af produkter i supermarkeder baseret på faktorer som pris, ugedag, og hvilke
+                            medarbejdere der betjener
+                            kassen, ved hjælp af regressionsanalyse.
+
+                        </p>
+                        <hr>
+                        <div class="event" data-start="20240103T090000" data-end="20240103T090000" data-summary="Uge 3">
+                            <p class="description text-small mt-2 font-weight-light">Description of Event 3. <br>Visit:
+                                <a href="https://s.tepedu.com">Event 1 Link</a>
+                                <br><a href="https://s.tepedu.dk">More Info</a>
+                            </p>
+                        </div>
+
+
+                    </li>
+
+
+
+
+
+
+
+                </ul><!-- End -->
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('in-view');
+                    } else {
+                        entry.target.classList.remove('in-view');
+                    }
+                });
+            }, {
+                threshold: 0.1 // Adjust if necessary to control when the animation starts
+            });
+
+            document.querySelectorAll('.timeline-item').forEach(item => {
+                observer.observe(item);
+            });
+        });
+    </script>
+
+</body>
+
+</html>
