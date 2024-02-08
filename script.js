@@ -30,7 +30,8 @@ document.getElementById('downloadICS').addEventListener('click', () => {
                                  .replace(/<a href="(.*?)".*?>(.*?)<\/a>/gi, "$2→ $1")
                                  .replace(/\t/g, "")
                                  .replace(/\s+/g, ' ').trim()
-                                 .replace(/&rarr;/g, ":");
+                                 .replace(/&rarr;/g, ":")
+                                 .replace(/<[^>]+>/gi, '');
 
         const uid = `uid${pageId}${index}@tepedu.dk`;
 
