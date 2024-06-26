@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:plan./tepedu.dk/kvantitativ
+BEGIN:VEVENT
+UID:uidkvantitativ0@tepedu.dk
+DTSTAMP:20240626T102446Z
+DTSTART:20240816T090000
+DTEND:20240816T120000
+SUMMARY:Kvantitative metoder 1: Goodness of fit test
+DESCRIPTION:\n ● Excel pivottabeller: Se på videoer og opgaverne med pivottabellerne under\n materialer\n inden timerne.\n ● Køb onlinebogen og log ind så du kan læse kapitlerne\, når du er logget ind kan\n du bare\n klikke på links i flowplanen til højre :O)\n ● Hør evt. podcasts kapitel 23\, hvis du har behov for repetition af tidligere\n statistik\n :O)\n\n I timerne:\n ● Vi arbejder med opgaver med pivottabeller\n ● Fælles Quiz\n ● Vi henter Freestat sammen fra bogen\n ● Da vi henter og installerer vi også R + Rstudio\n\n Materialer:\n Lærebogen→ #\n Excel Pivottabeller→ #\n Quiz Excel Pivottabeller→ #\n Podcasts→ #\n Cran R→ https://cran.r-project.org/\n Kapitel 17 Goodness of fit tests→ #\n Quizziz Titanic→ https://quizizz.com/\n
+SEQUENCE:171939748
+LAST-MODIFIED:20240626T102446Z
+END:VEVENT
+BEGIN:VEVENT
+UID:uidkvantitativ1@tepedu.dk
+DTSTAMP:20240626T102446Z
+DTSTART:20240823T090000
+DTEND:20240823T120000
+SUMMARY:Kvantitative metoder 2: Chi i anden tests
+DESCRIPTION:\n ● Læs Chi i anden tests og Goodness og fit tests i kapitel 17\, se på eksemplerne\n og\n videoerne i kapitlet\n ● For yderligere baggrund vedr. betingede sandsynligheder kan man læse kapitel\n 16\n\n I timerne:\n ● Øvelsesopgaver\n ● Quizzes\n ● Selvtests\n\n Materialer:\n Chi i anden test→ #\n Betingede sandsynligheder→ #\n Quiz GOF Virksomheder→ https://quizizz.com/\n
+SEQUENCE:171939748
+LAST-MODIFIED:20240626T102446Z
+END:VEVENT
+BEGIN:VEVENT
+UID:uidkvantitativ2@tepedu.dk
+DTSTAMP:20240626T102446Z
+DTSTART:20240830T090000
+DTEND:20240830T120000
+SUMMARY:Kvantitative metoder 3: ANOVA
+DESCRIPTION:\n ● ANOVA kapitel 18\, læs kapitlet og se på eksemplerne i kapitlet\n\n I timerne:\n ● Øvelsesopgaver\n ● Quizzes\n ● Selvtests\n ● LMF1 og LMF4\n\n Materialer:\n ANOVA→ #\n Quiz ANOVA Ford Focus→ https://quizizz.com/\n
+SEQUENCE:171939748
+LAST-MODIFIED:20240626T102446Z
+END:VEVENT
+BEGIN:VEVENT
+UID:uidkvantitativ3@tepedu.dk
+DTSTAMP:20240626T102446Z
+DTSTART:20240906T090000
+DTEND:20240906T120000
+SUMMARY:Kvantitative metoder 4: Faktoranalyse
+DESCRIPTION:\n ● Faktoranalyse kapitel 20\, læs kapitlet og se på de 3 videoeksempler i kapitel\n 19. så du\n ved hvordan RStudio virker. Hvis du ikke allerede har installeret så få installeret Cran\n R + R\n Studio inden timerne. Hvis du ikke kan få installeret på maskinen\, kan man alternativt\n benytte R\n Studio Cloud som man bruger direkte i Chrome/Firefox/Safari.\n\n I timerne:\n ● Øvelsesopgaver\n ● Quizzes\n ● Selvtests\n ● LMF1 og LMF4\n\n Materialer:\n Cran R→ https://cran.r-project.org/\n Faktoranalyse→ #\n Korrelation→ #\n Evt Anova selvtest 2→ #\n Anova Quiz→ #\n Quizziz Faktor→ https://quizizz.com/\n
+SEQUENCE:171939748
+LAST-MODIFIED:20240626T102446Z
+END:VEVENT
+BEGIN:VEVENT
+UID:uidkvantitativ4@tepedu.dk
+DTSTAMP:20240626T102446Z
+DTSTART:20240913T090000
+DTEND:20240913T120000
+SUMMARY:Kvantitative metoder 5: Klyngeanalyse
+DESCRIPTION:\n ● Klyngeanalyse kapitel 21\, læs kapitlet og se på eksemplerne i kapitlet\n\n I timerne:\n ● Øvelsesopgaver\n ● Quizzes\n ● Selvtests\n\n Materialer:\n Klyngeanalyse→ #\n Løsningsforslag til Eksamen 2020 fra timen→ #\n
+SEQUENCE:171939748
+LAST-MODIFIED:20240626T102446Z
+END:VEVENT
+BEGIN:VEVENT
+UID:uidkvantitativ5@tepedu.dk
+DTSTAMP:20240626T102446Z
+DTSTART:20240920T090000
+DTEND:20240920T120000
+SUMMARY:Kvantitative metoder 6: Lineær regression
+DESCRIPTION:\n ● Korrelation kapitel 10\n ● Lineær regression kapitel 11\n ● Læs kapitlerne\, se videoer\, og se på eksemplerne i kapitlet\n\n I timerne:\n ● Øvelsesopgaver\n ● Quizzes\n ● Selvtests\n ● LMF1 og LMF4\n\n Materialer:\n Lineær regression→ #\n Tidligere skriftlige eksamensopgaver→ #\n
+SEQUENCE:171939748
+LAST-MODIFIED:20240626T102446Z
+END:VEVENT
+BEGIN:VEVENT
+UID:uidkvantitativ6@tepedu.dk
+DTSTAMP:20240626T102446Z
+DTSTART:20240927T090000
+DTEND:20240927T120000
+SUMMARY:Kvantitative metoder 7: Tidsrækkeanalyse
+DESCRIPTION:\n ● Tidsrækkeanalyse\, vi begynder på kapitel 22\, Læs + se videoer til og med\n ARIMA(1\,0\,0)\n eller AR(1) autoregression\n\n I timerne:\n ● Øvelsesopgaver\n ● Quizzes\n ● Selvtests\n ● LMF1 og LMF4\n\n Materialer:\n Tidsrækkeanalyse→ #\n Aktiekurser i Excel og Google Sheets→ #\n ARIMA2→ #\n Quiz reg→ https://quizizz.com/\n
+SEQUENCE:171939748
+LAST-MODIFIED:20240626T102446Z
+END:VEVENT
+BEGIN:VEVENT
+UID:uidkvantitativ7@tepedu.dk
+DTSTAMP:20240626T102446Z
+DTSTART:20241004T090000
+DTEND:20241004T120000
+SUMMARY:Kvantitative metoder 8: Tidsrækkeanalyse (fortsat)
+DESCRIPTION:\n ● Tidsrækkeanalyse\, vi fortsætter med resten af kapitel 22\n\n I timerne:\n ● Øvelsesopgaver\n ● Scientific notation fjern denne i R options(scipen=999)\n ● R Cloud upload Excel fil\n ● Vælg søjle i R\n ● LMF1 og LMF4\n\n Materialer:\n Tidsrækkeanalyse→ #\n Tidsrækkeanalyse (yderligere materiale)→ #\n
+SEQUENCE:171939748
+LAST-MODIFIED:20240626T102446Z
+END:VEVENT
+BEGIN:VEVENT
+UID:uidkvantitativ8@tepedu.dk
+DTSTAMP:20240626T102446Z
+DTSTART:20241011T090000
+DTEND:20241011T120000
+SUMMARY:Kvantitative metoder 9: Repetition
+DESCRIPTION:\n ● Repetition vi gennemgår en Demo 2020 eksamensopgaven\n\n I timerne:\n ● Øvelsesopgaver\n ● Quizzes\n ● Selvtests\n\n Materialer:\n Tidligere skriftlige eksamensopgaver→ #\n
+SEQUENCE:171939748
+LAST-MODIFIED:20240626T102446Z
+END:VEVENT
+BEGIN:VEVENT
+UID:uidkvantitativ9@tepedu.dk
+DTSTAMP:20240626T102446Z
+DTSTART:20241025T090000
+DTEND:20241025T110000
+SUMMARY:Kvantitative metoder - Eksamen
+DESCRIPTION:\n ● Kvantitative metoder – Skriftlig 2 timer\n ● Tid og sted info angives i studiekalender/wiseflow\n
+SEQUENCE:171939748
+LAST-MODIFIED:20240626T102446Z
+END:VEVENT
+END:VCALENDAR
