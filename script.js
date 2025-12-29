@@ -23,6 +23,12 @@ document.getElementById('downloadICS').addEventListener('click', () => {
         const summary = event.getAttribute('data-summary');
         let description = event.querySelector('.description').innerHTML;
 
+        // Remove elements marked to be ignored in ICS
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = description;
+        tempDiv.querySelectorAll('[data-ics-ignore]').forEach(el => el.remove());
+        description = tempDiv.innerHTML;
+
         description = description.replace(/<br\s*\/?>/gi, "")
                                  .replace(/\n/g, "\\n")
                                  .replace(/,/g, "\\,")
